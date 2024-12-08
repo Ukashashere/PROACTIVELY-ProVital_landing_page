@@ -23,24 +23,32 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);  /* this is useState Hook. useState(false): This hook is used to declare a state variable and its setter function. Here, useState is initialized with false. openMenu: This is the state variable that will hold the current state value */
   const menuOptions = [     /* menuOptions: This is an array of objects representing the options in the menu.*/
     {
-      text: "Home",
+      text: "List your practice |",
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "For Employers |",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Courses |",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Contact",
+      text: "Books |",
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
+      text: "Speakers |",
       icon: <ShoppingCartRoundedIcon />,
+    },
+    {
+      text: "Doctors |",
+      icon: <PhoneRoundedIcon />,
+    },
+    {
+      text: "Login/Signup",
+      icon: <PhoneRoundedIcon />,
     },
   ];  
   return (
@@ -49,10 +57,13 @@ const Navbar = () => {
       <img src={Logo} alt="" />
     </div>
     <div className="navbar-links-container" >
-      <a href="">Home</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
-      <a href="">About</a>
-      <a href="">Testimonials</a>
-      <a href="">Contact</a>
+      <a href="">List your practice</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
+      <a href="">For Employers</a>
+      <a href="">Courses</a>
+      <a href="">Books</a>
+      <a href="">Speakers</a>
+      <a href="">Doctors</a>
+      <a href="">Login/Signup</a>
       <a href="">
         <BsCart2 className='navbar-cart-icon' />
       </a>
