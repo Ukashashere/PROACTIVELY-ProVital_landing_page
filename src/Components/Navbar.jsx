@@ -2,7 +2,7 @@
 /* rafce */      
 
 import React, { useState } from 'react'; /* to use useState hook, important to import this*/
-import Logo from '../Assets/Logo.svg';
+import Logo from '../Assets/Logo.png';
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
