@@ -57,14 +57,12 @@ const Navbar = () => {
       <img src={Logo} alt="" />
     </div>
     <div className="navbar-links-container" >
-      <a href="">List your practice |</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
-      <a href="">For Employers |</a>
-      <a href="">Courses |</a>
-      <a href="">Books |</a>
-      <a href="">Speakers |</a>
-      <a href="">Doctors |</a>
-      <a href="">
-      </a>
+      <a href="">List your practice</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
+      <a href="">ForEmployers</a>
+      <a href="">Courses</a>
+      <a href="">Books</a>
+      <a href="">Speakers</a>
+      <a href="">Doctors</a>
       <button className="primary-button">Login/Signup</button>
     </div>
     <div className='navbar-menu-container' >

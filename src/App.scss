@@ -5,7 +5,7 @@
   font-family: "Reem Kufi", sans-serif !important;
 }
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 .App {
@@ -33,15 +33,21 @@ nav {
   display: none;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin-right: 0.5rem;
   text-decoration: none;
-  color: black;
+  color: grey;
   font-size: 1.1rem;
   font-weight: 600;
 }
+.navbar-links-container a:not(:last-child)::after {
+  content: "|";
+  margin-left: 5px;
+}
+
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  color:white;
+  background-color: grey;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -334,9 +340,9 @@ nav {
     max-width: 600px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 100px) {
   .nav-logo-container {
-    max-width: 140px;
+    width: 140px;
   }
   .navbar-links-container {
     display: none;
