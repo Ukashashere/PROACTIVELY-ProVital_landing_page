@@ -51,13 +51,13 @@ nav {
   padding: 0.9rem 1.75rem;
   color:white;
   background-image: conic-gradient(
-    #fd004c,
-    #fe9000,
-    #fff020,
-    #3edf4b,
-    #3363ff,
+    #fd00ca,
     #b102b7,
-    #fd004c
+    #3363ff,
+    #3edf4b,
+    #fff020,
+    #fe9000,
+    #fd6100
   );
   transition: 3s;
   outline: none;
@@ -77,13 +77,13 @@ nav {
 
 .primary-button:hover {
   background-image:conic-gradient(
-    #fd004c,
-    #b102b7,
-    #3363ff,
-    #3edf4b,
-    #fff020,
+    #fd6100,
     #fe9000,
-    #fd004c
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7,
+    #fd00ca
   );
 }
 .navbar-menu-container svg {
