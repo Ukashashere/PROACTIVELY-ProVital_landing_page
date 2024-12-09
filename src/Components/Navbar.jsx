@@ -20,7 +20,7 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false);  /* Yaha se Trishi */ /* this is useState Hook. useState(false): This hook is used to declare a state variable and its setter function. Here, useState is initialized with false. openMenu: This is the state variable that will hold the current state value */
+  const [openMenu, setOpenMenu] = useState(false);  /**/ /* this is useState Hook. useState(false): This hook is used to declare a state variable and its setter function. Here, useState is initialized with false. openMenu: This is the state variable that will hold the current state value */
   const menuOptions = [     /* menuOptions: This is an array of objects representing the options in the menu.*/
     {
       text: "List your practice |",
@@ -65,7 +65,7 @@ const Navbar = () => {
       <a href="">Doctors</a>
       <button className="primary-button">Login/Signup</button>
     </div>
-    <div className='navbar-menu-container' >   {/* Ye bhi Trishi */}
+    <div className='navbar-menu-container' >   {/**/}
       <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
     </div>
     <Drawer open={openMenu} onClose={() => setOpenMenu(false)}
