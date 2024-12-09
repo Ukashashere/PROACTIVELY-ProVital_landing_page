@@ -58,7 +58,7 @@ const Navbar = () => {
     </div>
     <div className="navbar-links-container" >
       <a href="">List your practice</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
-      <a href="">ForEmployers</a>
+      <a href="">For Employers</a>
       <a href="">Courses</a>
       <a href="">Books</a>
       <a href="">Speakers</a>

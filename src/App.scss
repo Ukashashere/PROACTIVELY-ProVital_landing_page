@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  font-family: "Aptos", sans-serif !important;
 }
 img {
   max-width: 80%;
@@ -113,6 +113,7 @@ nav {
   justify-content: center;
   align-items: flex-end;
   margin-right: 8vw;
+  margin-top: 20vh;
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
