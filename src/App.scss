@@ -7,10 +7,11 @@
 img {
   max-width: 80%;
   height: auto;
+  padding-top: 2vh;
 }
 .App {
   min-height: 100vh;
-  width: 90vw;
+  width: 98vw;           /* view height- vw */
   max-width: 1900px;
   margin: 0rem auto;
 }
@@ -27,7 +28,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 90px;
+  height: 17vh;
+  border-bottom: solid;
+  border-bottom-color: lightgray;
 }
 .navbar-menu-container {
   display: none;
