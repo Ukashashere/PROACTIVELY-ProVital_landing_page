@@ -1,20 +1,20 @@
 import './App.scss';
-import Home from './Components/Home';
-import About from './Components/About';
-import Work from './Components/Work';       /*Import, Here we have imported things*/
-import Testimonial from './Components/Testimonial';
+import Home from './Components/Home';     /*Import, Here we have imported things*/
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Hero from './Components/Hero';
+import HowItWorks from './Components/HowItWorks';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Work />                  {/*Render, Here we have rendered the imported things*/}
-      <Testimonial />
-      <Contact />
+      <Navbar />
+      <Hero />
+      <Home />         {/*Render, Here we have rendered the imported things*/}
+      <HowItWorks />
       <Footer />
+      <Contact />
     </div>
   );
 }

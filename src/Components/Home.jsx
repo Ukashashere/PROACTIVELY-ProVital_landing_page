@@ -2,8 +2,6 @@
 /* rafce */ 
 
 import React from 'react';
-import Navbar from './Navbar';
-import About from './About.jsx';
 
 import { FiArrowRight } from "react-icons/fi";
 
@@ -11,7 +9,6 @@ import { FiArrowRight } from "react-icons/fi";
 const Home = () => {
   return(                                 /*This thing is the HTML part*/
       <div className="home-container">
-          <Navbar />
           <div className="">         {/*typo was there*/}
             <div className="">   {/*typo was here too*/}
                        {/*Now the Home Error got fixed*/}

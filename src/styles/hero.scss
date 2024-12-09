@@ -49,7 +49,7 @@
 }
 
 .hero-text h1 {
-  font-size: 36px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -87,24 +87,24 @@
 
 @keyframes slide-top-to-bottom {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
   }
   50% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
 }
 
 @keyframes slide-bottom-to-top {
   0% {
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
   50% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
   }
 }
