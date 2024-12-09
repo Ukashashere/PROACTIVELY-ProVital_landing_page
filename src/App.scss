@@ -10,7 +10,7 @@ img {
 }
 .App {
   min-height: 100vh;
-  width: 85vw;
+  width: 90vw;
   max-width: 1900px;
   margin: 0rem auto;
 }
@@ -103,10 +103,10 @@ nav {
 
 @keyframes move-words {
   0% {
-      right: 100%;
+      up: 100%;          /*right*/  
   }
   100% {
-      right: -100%;
+      up: -100%;         /*right*/
   }
 }
 
