@@ -1,0 +1,110 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95vh;
+  padding: 50px;
+  background-color: #f4f4f4;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Makes sure the columns are side by side */
+  gap: 20px; /* Add some gap between the two columns */
+  width: 50%; /* Make sure the image container takes up 55% of the hero section */
+  position: relative;
+  z-index: 1; /* Ensure images are above the background */
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 50%; /* Make sure both columns take up equal space */
+}
+
+.column-one {
+  animation: slide-top-to-bottom 10s infinite;
+}
+
+.column-two {
+  animation: slide-bottom-to-top 10s infinite;
+}
+
+.image-column img {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+  width: 50%; /* Adjust the text container's width */
+  text-align: left;
+  z-index: 5;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+}
+
+/* Search Bar */
+.search-bar {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 2400px;
+  z-index: 10;
+}
+
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes slide-top-to-bottom {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes slide-bottom-to-top {
+  0% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

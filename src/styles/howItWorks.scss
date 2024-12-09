@@ -1,0 +1,39 @@
+.how-it-works {
+    text-align: center;
+    padding: 40px;
+  
+    h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+  
+    .pillars {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+  
+      .pillar-card {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        max-width: 200px;
+  
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 16px;
+          color: #666;
+        }
+      }
+    }
+  }
+  
