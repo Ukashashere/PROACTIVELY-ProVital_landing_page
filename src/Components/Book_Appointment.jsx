@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../styles/hero.scss";
+import "../styles/Book_Appointment.scss";
 
 // Import images
 import image1 from "../Assets/image1.png";
@@ -11,13 +11,13 @@ import image6 from "../Assets/image6.png";
 import image7 from "../Assets/image7.png";
 import image8 from "../Assets/image8.png";
 
-const Hero = () => {
+const Book_Appointment = () => {
   useEffect(() => {
     // No additional functionality needed; animation handled in CSS.
   }, []);
 
   return (
-    <section className="hero">
+    <section className="Book_Appointment">
       {/* Left Side: Images */}
       <div className="image-container">
         <div className="image-column column-one">
@@ -35,8 +35,8 @@ const Hero = () => {
       </div>
 
       {/* Right Side: "Book an appointment" Text */}
-      <div className="hero-text">
-        <h1>Book an appointment with lifestyle medicine experts</h1>
+      <div className="Book_Appointment-text">
+        <h1>Book an appointment with <span>lifestyle medicine</span> experts</h1>
         <p>Optimize your lifestyle and reverse chronic diseases.</p>
       </div>
 
@@ -44,10 +44,10 @@ const Hero = () => {
       <div className="search-bar">
         <input type="text" placeholder="Condition, procedure, specialty..." />
         <input type="text" placeholder="City, state, or zipcode" />
-        <button>Find now</button>
+        <button className="find-now-button">Find now</button>
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default Book_Appointment;
