@@ -59,8 +59,7 @@ nav {
     #b102b7,
     #fd004c
   );
-  transform: rotate(0);
-  transition: transform 0.2s;
+  transition: 3s;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -71,8 +70,21 @@ nav {
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
+.primary-button__title{
+  position: relative;
+  z-index: 2;
+}
+
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-image:conic-gradient(
+    #fd004c,
+    #b102b7,
+    #3363ff,
+    #3edf4b,
+    #fff020,
+    #fe9000,
+    #fd004c
+  );
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
