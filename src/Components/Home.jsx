@@ -18,7 +18,8 @@ const Home = () => {
             </div>
             <div className='home-text-section'>
               <h1 className='primary-heading'>
-                Your Favourite Food Delivered Hot & Fresh
+                Book an appointment with
+                lifestyle medicine experts
               </h1>
               <p className='primary-text'>
                 Healthy switchefr chefs do all the prep work, like peeding,
