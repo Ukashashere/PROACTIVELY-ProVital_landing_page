@@ -44,6 +44,7 @@ const Book_Appointment = () => {
       <div className="search-bar">
         <input type="text" placeholder="Condition, procedure, specialty..." />
         <input type="text" placeholder="City, state, or zipcode" />
+        <input type="text" placeholder="Insurance carrier" />
         <button className="find-now-button">Find now</button>
       </div>
     </section>
