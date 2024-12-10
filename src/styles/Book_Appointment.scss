@@ -72,18 +72,18 @@
 .search-bar {
   position: absolute;
   bottom: 100px;
-  width: 85%;
+  width: 86.5%;
   height: 92px;
   display: flex;
   justify-content: left;
-  margin-left: 70px;
+  margin-left: 65px;
   max-width: 2400px;
   z-index: 10;
   transform: skewY(2deg);   /*works on Chrome, Edge */
   -ms-transform: skewY(2deg);       /* IE */
   -webkit-transform: skewY(2deg);   /* Safari */
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .input-first {
@@ -103,7 +103,7 @@
   width: 252px;
   height: 60px;
   margin-top: 17px;
-  margin-left: 17px;
+  margin-left: 11px;
 }
 
 .input-third {
@@ -113,7 +113,7 @@
   width: 230px;
   height: 60px;
   margin-top: 17px;
-  margin-left: 17px;
+  margin-left: 11px;
 }
 
 .search-bar button {
@@ -126,7 +126,7 @@
   height: 60px;
   width: 157px;
   margin-top: 17px;
-  margin-left: 17px;
+  margin-left: 12px;
   border-radius: 10px;
 }
 
