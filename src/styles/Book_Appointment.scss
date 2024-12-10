@@ -71,25 +71,46 @@
 /* Search Bar */
 .search-bar {
   position: absolute;
-  bottom: 120px;
-  width: 100%;
+  bottom: 100px;
+  width: 85%;
   height: 92px;
   display: flex;
   justify-content: left;
-  margin-left: 100px;
-  gap: 20px;
+  margin-left: 70px;
   max-width: 2400px;
   z-index: 10;
   transform: skewY(2deg);   /*works on Chrome, Edge */
   -ms-transform: skewY(2deg);       /* IE */
   -webkit-transform: skewY(2deg);   /* Safari */
+  background-color: white;
+  border-radius: 10px;
 }
 
-.search-bar input {
+.input-first {
   padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  width: 250px;
+  width: 377px;
+  height: 60px;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.input-second {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 252px;
+  height: 60px;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.input-third {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 230px;
   height: 60px;
   margin-top: 17px;
   margin-left: 17px;
@@ -103,7 +124,10 @@
   color: white;
   cursor: pointer;
   height: 60px;
+  width: 157px;
   margin-top: 17px;
+  margin-left: 17px;
+  border-radius: 10px;
 }
 
 @keyframes slide-top-to-bottom {
