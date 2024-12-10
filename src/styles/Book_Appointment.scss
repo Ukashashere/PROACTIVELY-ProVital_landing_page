@@ -97,6 +97,21 @@
   margin-left: 17px;
 }
 
+.input-first input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.input-first i {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: grey;
+}
+
 .input-second {
   font-size: 18px;
   padding: 10px 20px;
