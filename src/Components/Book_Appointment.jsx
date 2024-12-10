@@ -46,7 +46,7 @@ const Book_Appointment = () => {
 
       {/* Search Bar */}
       <div className="search-bar">
-        <input className="input-first" type="text" placeholder="Condition, procedure, specialty..." />
+        <input className="input-first" type="text"  placeholder= " Condition, procedure, specialty..." />
         <input className="input-second" type="text" placeholder="City, state, or zipcode" />
         <input className="input-third" type="text" placeholder="Insurance carrier" />
         <button>Find now</button>
