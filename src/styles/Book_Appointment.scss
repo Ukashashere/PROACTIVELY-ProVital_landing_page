@@ -73,8 +73,10 @@
   position: absolute;
   bottom: 120px;
   width: 100%;
+  height: 92px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 100px;
   gap: 20px;
   max-width: 2400px;
   z-index: 10;
@@ -84,19 +86,24 @@
 }
 
 .search-bar input {
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
   width: 250px;
+  height: 60px;
+  margin-top: 17px;
+  margin-left: 17px;
 }
 
 .search-bar button {
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  background-color: #007bff;
+  border: 1px solid #ccc;             /*Linear Color, in place of Solid color*/
+  background-image: linear-gradient(43deg, #0CB9B3 0%, #1173B3 100%);
   color: white;
   cursor: pointer;
+  height: 60px;
+  margin-top: 17px;
 }
 
 @keyframes slide-top-to-bottom {
@@ -141,7 +148,4 @@ span {                          /*Text Linear Color, in place of Solid color*/
   color: transparent;
 }
 
-.find-now-button {              /*Linear Color, in place of Solid color*/
-  background-image: linear-gradient(43deg, #0CB9B3 0%, #1173B3 100%);
-}
 
