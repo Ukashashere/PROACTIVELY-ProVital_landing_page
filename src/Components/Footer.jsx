@@ -9,9 +9,6 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
-        <div className="footer-logo-container">
-          <img src={Logo} alt="" />
-        </div>
         <div className="footer-icons">
           <BsTwitter />
           <SiLinkedin />            {/*icons at the end o fthe page*/}
@@ -29,14 +26,15 @@ const Footer = () => {
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <span>177-9873-2263</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
+          <span>+91-88473-56497</span>
+          <span>hello@ProVital.com</span>
+          <span>press@ProVital.com</span>
+          <span>contact@ProVital.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
+          <span>©️UKASHA AHMAD-2024</span>
+          <span>@Ukasha Ahmad @ukashashere</span>
         </div>
       </div>
     </div>

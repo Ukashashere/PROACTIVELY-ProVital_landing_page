@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import "../styles/Book_Appointment.scss";
+import { BsSearch } from "react-icons/bs";
+import { IoLocationSharp } from "react-icons/io5";
+import { LiaAddressCardSolid } from "react-icons/lia";  /* actual-- vaadin:health-card */
+
 
 // Import images
 import image1 from "../Assets/image1.png";
