@@ -10,6 +10,11 @@
 ## The Fourth Page:
 ![image](https://github.com/user-attachments/assets/96dcf362-e538-45f0-89ea-ed1073b70e52)
 ## .
+## Mobile View:
+![image](https://github.com/user-attachments/assets/11eb8dd7-4260-4ba5-a18d-f3ed863723d2)
+## .
+## Menu Container:
+![image](https://github.com/user-attachments/assets/ca40bcd5-89ac-4bf5-a51f-ef7b9924183f)
 ## Actual Figma design :
 ![Screenshot (1123)](https://github.com/user-attachments/assets/cf0cc640-c095-45f0-9372-fa58b45bf8d7)
 ## .
