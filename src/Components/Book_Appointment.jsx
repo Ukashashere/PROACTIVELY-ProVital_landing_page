@@ -4,7 +4,6 @@ import { BsSearch } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 import { LiaAddressCardSolid } from "react-icons/lia";  /* actual-- vaadin:health-card */
 
-
 // Import images
 import image1 from "../Assets/image1.png";
 import image2 from "../Assets/image2.png";
@@ -14,6 +13,25 @@ import image5 from "../Assets/image5.png";
 import image6 from "../Assets/image6.png";
 import image7 from "../Assets/image7.png";
 import image8 from "../Assets/image8.png";
+
+
+function IconInput({ children, placeholder, type}) {    /* Icon & Input at input Area */
+  return(
+    <div className="wrap">
+      <div className="icon-wrap">{children}</div>
+      <input type={type} placeholder={placeholder} />
+    </div>
+  )
+}
+
+function ButtonIconInput({ children, placeholder}) {    /* Icon & Input at input Area */
+  return(
+    <div className="button-wrap">
+      <div className="button-icon-wrap">{children}</div>
+      <p placeholder={placeholder} />
+    </div>
+  )
+}
 
 const Book_Appointment = () => {
   useEffect(() => {
@@ -44,12 +62,29 @@ const Book_Appointment = () => {
         <p>Optimize your lifestyle and reverse chronic diseases.</p>
       </div>
 
+
       {/* Search Bar */}
       <div className="search-bar">
-        <input className="input-first" type="text"  placeholder= " Condition, procedure, specialty..." />
-        <input className="input-second" type="text" placeholder="City, state, or zipcode" />
-        <input className="input-third" type="text" placeholder="Insurance carrier" />
-        <button>Find now</button>
+        <div className="input-first">               {/* Search Icon and Input */}
+          <IconInput type="text"  placeholder= "        Condition, procedure, specialty...">
+            <BsSearch />
+          </IconInput>
+        </div>
+        <div className="input-second">               {/* Location Icon and Input */}
+          <IconInput type="text" placeholder="      City, state, zipcode">
+            <IoLocationSharp />
+          </IconInput>
+        </div>
+        <div className="input-third">               {/* Search Icon and Input */}
+          <IconInput type="text" placeholder="     Insurance carrier">
+            <LiaAddressCardSolid />
+          </IconInput>
+        </div>
+        <div>
+          <ButtonIconInput type="text" placeholder= "      Find now">
+            <BsSearch />
+          </ButtonIconInput>
+        </div>
       </div>
     </section>
   );
