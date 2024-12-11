@@ -179,7 +179,7 @@ span {                          /*Text Linear Color, in place of Solid color*/
   font-size: 18px;
   position: relative;
   margin-top: 10px;
-  margin-left: 9px;
+  margin-left: 30px;
 }
 
 .icon-wrap {
@@ -223,7 +223,6 @@ span {                          /*Text Linear Color, in place of Solid color*/
   border-radius: 10px;
 }
 
-
 .button-icon-wrap {
   position: absolute;
   font-size: 20px;
@@ -231,4 +230,13 @@ span {                          /*Text Linear Color, in place of Solid color*/
   margin-left: 10px;
   color: white; 
   margin-top: 10px;
+}
+
+.button-text {
+  font-size: 18px;
+  color: white;
+  display: block;
+  height: 40px;
+  margin-left: 36px;
+  margin-top: 9.5px;
 }
