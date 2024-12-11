@@ -1,23 +1,17 @@
-# Food App landing Page
-## Figma design :
-![image](https://github.com/user-attachments/assets/e384abcf-3d36-49df-a7ef-b52f7afc15d8)
+# PROACTIVELY ProVital App Landing Page
+## This is how it Looks: 😊😊🚀
+![image](https://github.com/user-attachments/assets/661f8ecc-9a3f-4d11-8702-52dd285a5b77)
+## The Second Page: 
+![image](https://github.com/user-attachments/assets/85a39287-b207-4544-ae16-e301b6d89afe)
 ## .
-## "<"div">" , "<"p">" elements and block level elements
-![Screenshot (737)](https://github.com/user-attachments/assets/0cb92953-130f-4718-a9ca-babea15bbd60)
+## The Third Page:
 ## .
-![image](https://github.com/user-attachments/assets/b5dbda57-fe3f-4969-8207-d9d76512cf95)
+## The Fourth Page:
+![image](https://github.com/user-attachments/assets/4099833b-4e34-4c27-8053-994909b66e4b)
 ## .
-![Screenshot (740)](https://github.com/user-attachments/assets/248eed18-e288-4855-9d76-2dbf2decb14b)
+## Actual Figma design :
+![Screenshot (1123)](https://github.com/user-attachments/assets/cf0cc640-c095-45f0-9372-fa58b45bf8d7)
 ## .
-![image](https://github.com/user-attachments/assets/bf36a710-974f-47ea-80f1-8643e1d58b0a)
-## .
-![image](https://github.com/user-attachments/assets/3ac3ad3d-fa0e-4dc6-ac39-d894bbb1755d)
-## .
-## Images Simple download then apply- Background mask removal
-![image](https://github.com/user-attachments/assets/8e33c8f0-de25-4dea-8e61-761df268b846)
-## .
-![image](https://github.com/user-attachments/assets/cc950c17-a396-4d6a-bc2f-132efe261445)
-## .
-## Have started looking like this:
-![image](https://github.com/user-attachments/assets/c0d530f2-def4-4e51-a714-8e2f2d668759)
-## .
+## ![ThankYouThankYouThankYouGifkaroGIF](https://github.com/user-attachments/assets/8ce93479-f61b-44a9-a1d1-4ba747419f1d)
+## 👍😊👨‍💻
+## ©️UKASHA AHMAD
