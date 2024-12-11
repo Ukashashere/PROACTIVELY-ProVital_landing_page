@@ -23,27 +23,27 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);  /**/ /* this is useState Hook. useState(false): This hook is used to declare a state variable and its setter function. Here, useState is initialized with false. openMenu: This is the state variable that will hold the current state value */
   const menuOptions = [     /* menuOptions: This is an array of objects representing the options in the menu.*/
     {
-      text: "List your practice |",
+      text: "List your practice ",
       icon: <HomeIcon />,
     },
     {
-      text: "For Employers |",
+      text: "For Employers ",
       icon: <InfoIcon />,
     },
     {
-      text: "Courses |",
+      text: "Courses ",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Books |",
+      text: "Books ",
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Speakers |",
+      text: "Speakers ",
       icon: <ShoppingCartRoundedIcon />,
     },
     {
-      text: "Doctors |",
+      text: "Doctors ",
       icon: <PhoneRoundedIcon />,
     },
     {
