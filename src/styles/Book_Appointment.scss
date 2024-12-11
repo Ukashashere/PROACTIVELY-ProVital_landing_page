@@ -23,6 +23,11 @@
   -webkit-transform: skewY(2deg);   /* Safari */
 }
 
+.image-container img{
+  max-width: 90%;
+  height: auto;
+}
+
 .image-column {
   display: flex;
   flex-direction: column;

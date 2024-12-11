@@ -4,11 +4,7 @@
   box-sizing: border-box;
   font-family: "Aptos", sans-serif !important;
 }
-img {
-  max-width: 80%;
-  height: auto;
-  padding-top: 2vh;
-}
+
 .App {
   min-height: 100vh;
   width: 98vw;           /* view height- vw */
@@ -32,6 +28,13 @@ nav {
   border-bottom: solid;
   border-bottom-color: lightgray;
 }
+
+nav img {
+  max-width: 80%;
+  height: auto;
+  padding-top: 2vh;
+}
+
 .navbar-menu-container {
   display: none;
 }
